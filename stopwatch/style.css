@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.timer-display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.laps {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #e0e0e0;
+}
